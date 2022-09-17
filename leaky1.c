@@ -1,4 +1,4 @@
-//code to implement leaky
+//code to implement leaky  bucket
 
 #include<stdio.h>
 int main () {
