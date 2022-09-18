@@ -24,9 +24,9 @@ void main (int argc ,char **argv){
   serveraddr.sin_port = htons(port);
   serveraddr.sin_addr.s_addr = inet_addr("127.0.0.1");
 
-  strcpy(buffer,"hello");
-  sendto(sockfd,buffer,1024,0,(struct sockaddr*)&serveraddr,sizeof(serveraddr);
+  strcpy(buffer,"hello udp done!!");
+  sendto(sockfd,buffer,1024,0,(struct sockaddr*)&serveraddr,sizeof(serveraddr));
 
-  printf("data send:%s",buffer);
+  printf("data sent:%s",buffer);
   
 }
