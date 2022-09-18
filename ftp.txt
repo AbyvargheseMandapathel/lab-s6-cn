@@ -1,0 +1,2 @@
+hello !!
+FTP done successfully
