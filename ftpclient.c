@@ -10,7 +10,7 @@
 #define SERV_TCP_PORT 5533
 #define MAX 60
 
-int main(int argc, char argv[]) {
+int main(int argc, char*argv[]) {
   int sockfd, n;
   struct sockaddr_in serv_addr;
   struct hostent *server;
